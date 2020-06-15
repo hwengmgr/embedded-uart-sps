@@ -40,8 +40,8 @@
 // http://www.raspberry-projects.com/pi/programming-in-c/uart-serial-port/using-the-uart
 
 //#define TTYDEV "/dev/ttyUSB0"
-#define TTYDEV "/dev/serial0"
-
+//#define TTYDEV "/dev/serial0"
+#define TTYDEV "/dev/ttyAMA4"
 static int uart_fd = -1;
 
 /**
