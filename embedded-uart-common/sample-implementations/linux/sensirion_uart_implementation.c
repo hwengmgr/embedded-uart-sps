@@ -41,7 +41,7 @@
 
 //#define TTYDEV "/dev/ttyUSB0"
 //#define TTYDEV "/dev/serial0"
-#define TTYDEV "/dev/ttyAMA4"
+#define TTYDEV "/dev/ttyAMA2"
 static int uart_fd = -1;
 
 /**
